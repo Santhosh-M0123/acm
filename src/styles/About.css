@@ -1,0 +1,82 @@
+.about_us{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.about_subtitle p{
+    width: 25px;
+    height: 3px;
+    background-color: yellow;
+}
+.about_title h1{
+    font-size: 35px;
+}
+.about_subtitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.about_us_des p{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.about_right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about_right img{
+    width: 350px;
+    height: auto;
+}
+
+
+@media (min-width:200px) and (max-width : 480px) {
+    .about_us{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .about_right img{
+        width: 250px;
+        height: auto;
+    }
+    .about-title h1{
+        font-size: 27px;
+    }
+    .about_subtitle span{
+        font-size: 13px;
+    }
+}
+
+@media (min-width:480px) and (max-width : 600px) {
+    .about_us{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .about_right img{
+        width: 250px;
+        height: auto;
+    }
+}
+@media (min-width:600px) and (max-width : 1200px) {
+    .about_us{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .about_right img{
+        width: 300px;
+        height: auto;
+    }
+}

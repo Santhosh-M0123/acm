@@ -1,0 +1,57 @@
+.vision{
+    width: 100%;
+    text-align: center;
+}
+
+.vision_title{
+    padding-top: 50px;
+}
+.vision_content{
+    padding-bottom: 50px;
+}
+.vision_subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.vision_subtitle p{
+    width: 15px;
+    height: 3px;
+    background-color: yellow;
+}
+.svg_vision img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.moto h1{
+    color: rgb(85, 84, 84);
+}
+
+@media (min-width:200px) and (max-width : 600px) {
+    .vision h1{
+        font-size: 25px;
+    }
+    .vision_subtitle{
+        font-size: 16px;
+    }
+    .vision_subtitle span{
+        font-size: 13px;
+    }
+    .vision_subtitle p{
+        width: 15px;
+    }
+}
+
+@media (min-width:600px) and (max-width : 1200px) {
+    .vision h1{
+        font-size: 28px;
+    }
+    .svg_vision img{
+        width: 170px;
+        height: 170px;
+
+    }
+}

@@ -1,0 +1,144 @@
+.upcoming{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.upcoming_title{
+    margin-top: 40px;
+}
+.upcoming_subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.upcoming_subtitle p{
+    width: 15px;
+    height: 3px;
+    background-color: yellow;
+}
+.brouchers{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    row-gap: 20px;
+    justify-content: center;
+    /* position: relative; */
+}
+
+/* Cards */
+.cards_upcoming{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.card_upcoming_container{
+    width: 100%;
+    height: 100%;
+}
+.card_upcoming_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_block{
+    position: absolute;
+    top: 10px;
+    /* left: 0; */
+    padding: 10px;
+    background-color: #F5EE3E;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 0px 0px 15px 0px;
+    /* transform: rotate(-40deg); */
+}
+.download button{
+    background-color: yellow;
+    border: 2px solid yellow;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+    padding: 12px 25px 12px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s;
+}
+.download{
+    display: flex;
+    justify-content: center;
+}
+.download button:hover{
+    background-color: #F5EE3E;
+}
+.download button i{
+    margin-left: 5px;
+}
+@media (min-width: 200px) and (max-width : 480px) {
+    .upcoming_title{
+        font-size: 12px;
+    }
+    .cards_upcoming{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    .brouchers{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: auto;
+        /* column-gap: 40px; */
+        row-gap: 20px;
+        justify-content: center;
+        /* position: relative; */
+    }
+    
+}
+
+@media (min-width: 480px) and (max-width : 600px) {
+    .cards_upcoming{
+        position: relative;
+        width: 270px;
+        height: 270px;
+        background-color: aqua;
+        cursor: pointer;
+    }
+    .brouchers{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: auto ;
+        column-gap: 40px;
+        row-gap: 20px;
+        justify-content: center;
+        /* position: relative; */
+    }
+    
+}
+
+.timer_unit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.timer_unit h4{
+    color: rgb(64, 63, 63);
+}
+
+@media (min-width: 600px) and (max-width : 1200px) {
+    .cards_upcoming{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        background-color: aqua;
+        cursor: pointer;
+    }
+}
